@@ -6,6 +6,7 @@
     <title>News</title>
     <link rel="stylesheet" href="samlet.css">
     <link rel="stylesheet" href="newsStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 </head>
 
 <body>

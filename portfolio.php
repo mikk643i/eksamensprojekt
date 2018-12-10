@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="portfolioStyle.css">
     <link rel="stylesheet" href="samlet.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 </head>
 
 <body>
