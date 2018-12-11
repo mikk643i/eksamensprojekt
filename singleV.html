@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <style>
+        .data-page {
+            width: 30vw;
+        }
+
+        p {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+
+
+<section class="forside"></section>
+
+
+
+<article class="data-page">
+
+    <img class="data_billeder" src="" alt="">
+    <h2 class="data-title"></h2>
+    <p class=".data-rubrik"></p>
+    <p class="data-beskrivelse"></p>
+
+</article>
+
+
+
+
+
+<body>
+    <script>
+        let urlParams = new URLSearchParams(window.location.search);
+        let id = urlParams.get("id");
+
+        console.log(id);
+
+
+
+        let templateModtager = document.querySelector(".forside");
+
+        let chrForside = document.querySelector(".data-page");
+
+
+
+        document.addEventListener("DOMContentLoaded", getJson);
+
+
+
+
+
+        async function getJson() {
+
+            let ForsideObjekt = await fetch("http://schaadtdesign.dk/kea/eksamen/wordpress/wp-json/wp/v2/venstre_forside");
+            chrForside = await ForsideObjekt.json();
+            console.log(chrForside);
+
+            VisPost();
+
+        }
+
+
+
+        function VisPost() {
+
+            let dest = document.querySelector(".data-page");
+
+            chrForside.forEach(port => {
+                console.log(VisPost);
+
+                if (port.id == id) {
+
+                    dest.querySelector(".data-title").textContent = port.title.rendered;
+                    dest.querySelector(".data_billeder").src = port.acf.billedefront.url;
+                    dest.querySelector(".data-beskrivelse").textContent = port.acf.beskrivelse;
+
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
