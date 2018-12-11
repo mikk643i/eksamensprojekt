@@ -1,0 +1,14 @@
+.pagecontainer {
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+
+article {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}

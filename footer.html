@@ -5,12 +5,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footer</title>
-    <link rel="stylesheet" href="samlet.css">
+
+    <style>
+        footer {
+            bottom: -8px;
+            background-color: #E8E7E9;
+
+            height: 20vh;
+            margin: -10px;
+            display: flex;
+            justify-content: flex-end;
+            z-index: 10;
+            position: relative;
+
+
+        }
+
+        .footer-container {
+
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            bottom: 0;
+
+        }
+
+
+
+        .footer-container img {
+            width: 50px;
+            padding: 4px;
+        }
+
+    </style>
 </head>
 
 <body>
 
+    <footer>
+        <div class="footer-container">
+            <div class="instagram"> <a href="https://www.instagram.com/?hl=da"><img src="assets/instagramicon.png" alt="instagram"></a></div>
+            <div class="linkedin"> <a href="https://www.linkedin.com/"> <img src="assets/linkedin.png" alt="linkedin"> </a></div>
 
+        </div>
+    </footer>
 
 
 </body>
