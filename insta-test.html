@@ -5,75 +5,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News</title>
-    <link rel="stylesheet" href="samlet.css">
+    <link rel="stylesheet" href="">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 </head>
 
 <body>
 
     <style>
-        /*
-body {
-color: #262626;
-background-color: #fafafa;
-font-size: 18px;
-font-family: 'Open Sans', sans-serif;
-font-weight: 300;
-}
+        body {
+            color: #262626;
+            background-color: #fafafa;
+            font-size: 18px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+        }
 
-h1 {
-font-weight: 300;
-font-size: 30px;
-}
-*/
+        h1 {
+            font-weight: 300;
+            font-size: 30px;
+        }
 
         #rudr_userinfo {
             display: flex;
-            align-content: center;
-            margin: auto;
-            width: 50vw;
         }
 
-
+        div {
+            margin: 20px;
+        }
 
         #rudr_userinfo img {
             border-radius: 50%;
-            margin: 10px;
         }
 
-        #rudr_userinfo p a {
-
+        a {
+            color: #003569;
             text-decoration: none;
-
-            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
         }
-
 
         #rudr_instafeed {
             display: inline-grid;
-            grid-template-columns: 33vw 33vw 33vw;
+            grid-template-columns: auto auto auto auto;
 
 
-        }
-
-        #rudr_instafeed img {
-            width: 30vw;
-            margin-top: 20px;
         }
 
         li {
             list-style-type: none;
-
         }
 
     </style>
 
-
-    <?php include "header.html"; ?>
     <div id="rudr_userinfo"> </div>
     <div id="rudr_instafeed"></div>
 
-    <?php include "footer.html"; ?>
+
 
     <script>
         var token = 'YOUR INSTAGRAM TOKEN',

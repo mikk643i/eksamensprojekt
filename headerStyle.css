@@ -11,8 +11,9 @@
     }
 
     header img {
-        width: 30vw;
+        width: 20vw;
         align-items: center;
+        margin: 10px 10px 35px;
     }
 
     .menubutton {
@@ -111,7 +112,7 @@
 
     header img {
         display: block;
-        margin: auto;
+        margin: 25px auto;
         width: 15vw;
         /*
         margin-left: 17vw;
@@ -124,7 +125,7 @@
 
     .normal {
         display: block;
-        margin-left: auto;
+        margin: 0px auto 30px;
         width: 97%;
         margin-top: 20px;
         /*
@@ -189,7 +190,7 @@
 
     header img {
         display: block;
-        margin: auto;
+        margin: 25px auto;
         width: 15vw;
         /*
         margin-left: 17vw;
@@ -202,7 +203,7 @@
 
     .normal {
         display: block;
-        margin-left: auto;
+        margin: 0px auto 30px;
         width: 93%;
         margin-top: 28px;
         /*
@@ -268,8 +269,8 @@
 
     header img {
         display: block;
-        margin: auto;
-        width: 15vw;
+        margin: 30px auto;
+        width: 14vw;
         /*
         margin-left: 17vw;
         margin-top: 30px;
@@ -281,8 +282,8 @@
 
     .normal {
         display: block;
-        margin-left: auto;
-        width: 88%;
+        margin: 0px auto 30px;
+        width: 89%;
         margin-top: 30px;
         /*
         margin-left: 0;
@@ -348,8 +349,8 @@
 
     header img {
         display: block;
-        margin: auto;
-        width: 15vw;
+        margin: 30px auto;
+        width: 13vw;
         /*
         margin-left: 17vw;
         margin-top: 30px;
@@ -361,7 +362,7 @@
 
     .normal {
         display: block;
-        margin: auto;
+        margin: 0px auto 30px;
         width: 65%;
         margin-top: 35px;
         /*
@@ -426,20 +427,22 @@
 
     header img {
         display: block;
-        margin: auto;
-        width: 15vw;
-        /*
+        margin: 30px auto;
+        width: 13vw;
+    }
+
+    /*
         margin-left: 17vw;
         margin-top: 30px;
 
         align-items: center;
         padding-left: 20px;
 */
-    }
+
 
     .normal {
         display: block;
-        margin: auto;
+        margin: 0px auto 30px;
         width: 66%;
         margin-top: 40px;
         /*
@@ -504,8 +507,8 @@
 
     header img {
         display: block;
-        margin: auto;
-        width: 15vw;
+        margin: 30px auto;
+        width: 11vw;
         /*
         margin-left: 17vw;
         margin-top: 30px;
@@ -517,8 +520,8 @@
 
     .normal {
         display: block;
-        margin: auto;
-        width: 53%;
+        margin: 0px auto 30px;
+        width: 51%;
         margin-top: 50px;
         /*
         margin-left: 0;
@@ -582,8 +585,8 @@
 
     header img {
         display: block;
-        margin: auto;
-        width: 15vw;
+        margin: 30px auto;
+        width: 11vw;
         /*
         margin-left: 17vw;
         margin-top: 30px;
@@ -595,7 +598,7 @@
 
     .normal {
         display: block;
-        margin: auto;
+        margin: 0px auto 30px;
         width: 57%;
         margin-top: 50px;
         /*
@@ -662,8 +665,8 @@
 
     header img {
         display: block;
-        margin: auto;
-        width: 15vw;
+        margin: 30px auto;
+        width: 11vw;
         /*
         margin-left: 17vw;
         margin-top: 30px;
@@ -675,7 +678,7 @@
 
     .normal {
         display: block;
-        margin: auto;
+        margin: 0px auto 30px;
         width: 57%;
         margin-top: 50px;
         /*
@@ -740,20 +743,15 @@
 
     header img {
         display: block;
-        margin: auto;
-        width: 15vw;
-        /*
-        margin-left: 17vw;
-        margin-top: 30px;
+        margin: 40px auto;
+        width: 11vw;
 
-        align-items: center;
-        padding-left: 20px;
-*/
+        */
     }
 
     .normal {
         display: block;
-        margin: auto;
+        margin: 0px auto 30px;
         width: 48%;
         margin-top: 50px;
         /*
