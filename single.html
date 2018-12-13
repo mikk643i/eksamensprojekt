@@ -8,10 +8,31 @@
     <link rel="stylesheet" href="">
     <style>
         .data-page {
-            width: 30vw;
+            margin-left: 10vw;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+        .funitureBillede {
+            width: 35vw;
+        }
+
+
+        .funitureInfo {
+            width: 36vw;
+        }
+
+        .data_billeder {
+            width: 35vw;
+
         }
 
         p {
+            font-family: sans-serif;
+        }
+
+        h1 {
             font-family: sans-serif;
         }
 
@@ -26,12 +47,23 @@
 
 <article class="data-page">
 
-    <img class="data_billeder" src="" alt="">
-    <h2 class="data-title"></h2>
 
-    <p class="data-beskrivelse"></p>
+    <div class="funitureBillede">
+        <img class="data_billeder" src="" alt="">
+    </div>
+
+    <div class="funitureInfo">
+        <h1 class="data-title"></h1>
+        <p class="data-beskrivelse"></p>
+    </div>
+
+    <div class="productBilleder">
+        <img class="more_picture" src="" alt="">
+    </div>
 
 </article>
+
+
 
 
 
