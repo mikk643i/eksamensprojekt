@@ -24,6 +24,7 @@
          position: relative;
          width: 150px;
          height: auto;
+
      }
 
      .data-page:hover .overlay {
@@ -224,6 +225,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
