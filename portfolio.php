@@ -1080,7 +1080,7 @@
             }
 
             .portfolio {
-                margin-left: 8vw;
+                margin-left: 10vw;
                 display: grid;
                 width: 80vw;
                 height: 45vw;
