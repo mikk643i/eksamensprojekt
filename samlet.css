@@ -24,12 +24,14 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*Contact*/
 @media screen and (max-width: 730px) {
     .pagecontainer {
         display: block;
-        margin: 65px auto;
+        margin: 65px auto 370px;
         width: 89vw;
         justify-content: center;
+
     }
 
 }
@@ -40,8 +42,8 @@ h1 {
 @media screen and (min-width: 730px) {
     .pagecontainer {
         display: block;
-        margin: 65px auto;
-        width: 75vw;
+        margin: 65px auto 485px;
+        width: 78vw;
         justify-content: center;
     }
 
@@ -52,7 +54,7 @@ h1 {
     .pagecontainer {
         display: block;
         margin: 65px auto;
-        width: 69vw;
+        width: 71vw;
         justify-content: center;
     }
 
@@ -63,10 +65,28 @@ h1 {
     .pagecontainer {
         display: block;
         margin: 65px auto;
-        width: 60vw;
+        width: 69vw;
         justify-content: center;
     }
 
+}
+
+@media screen and (min-width: 974px) {
+    .pagecontainer {
+        display: block;
+        margin: 65px auto;
+        width: 56vw;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .pagecontainer {
+        display: block;
+        margin: 65px auto 750px;
+        width: 60vw;
+        justify-content: center;
+    }
 }
 
 /*Når skærmen er en vide på minimum 1040px*/
@@ -131,3 +151,5 @@ h1 {
     }
 
 }
+
+/* Contact slut */
