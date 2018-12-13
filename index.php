@@ -14,64 +14,64 @@
 
     <?php include "header.html"; ?>
 
-<div class="forside-collage">
+    <div class="forside-collage">
 
-    <section class="forside"></section>
-
-
-    <template id="wp_template">
-
-        <article class="data-page">
-            <img class="data-billeder" src="" alt="">
-            <div class="overlay">
-                <p class="data-title"></p>
-            </div>
-            <p class="data-modified"></p>
-        </article>
-
-    </template>
+        <section class="forside"></section>
 
 
+        <template id="wp_template">
 
+            <article class="data-page">
+                <img class="data-billeder" src="" alt="">
+                <div class="overlay">
+                    <p class="data-title"></p>
+                </div>
+                <p class="data-modified"></p>
+            </article>
 
-
-
-    <section class="forside-midt"></section>
-
-
-    <template id="wp_template">
-
-        <article class="data-page-midt">
-            <img class="data-billeder" src="" alt="">
-            <div class="overlay1">
-                <p class="data-title"></p>
-            </div>
-            <p class="data-modified"></p>
-        </article>
-
-    </template>
+        </template>
 
 
 
 
 
-    <section class="forside-hojre"></section>
+
+        <section class="forside-midt"></section>
 
 
-    <template id="wp_template">
+        <template id="wp_template">
 
-        <article class="data-page-hojre">
-            <img class="data-billeder" src="" alt="">
-            <div class="overlay">
-                <p class="data-title"></p>
-            </div>
-            <p class="data-modified"></p>
-        </article>
+            <article class="data-page-midt">
+                <img class="data-billeder" src="" alt="">
+                <div class="overlay1">
+                    <p class="data-title"></p>
+                </div>
+                <p class="data-modified"></p>
+            </article>
 
-    </template>
+        </template>
 
 
-</div>
+
+
+
+        <section class="forside-hojre"></section>
+
+
+        <template id="wp_template">
+
+            <article class="data-page-hojre">
+                <img class="data-billeder" src="" alt="">
+                <div class="overlay">
+                    <p class="data-title"></p>
+                </div>
+                <p class="data-modified"></p>
+            </article>
+
+        </template>
+
+
+    </div>
 
 
 
@@ -80,7 +80,8 @@
 
 
     <?php include "footer.html"; ?>
-    <script>let minTemplate = document.querySelector("#wp_template");
+    <script>
+        let minTemplate = document.querySelector("#wp_template");
         let templateModtager1 = document.querySelector(".forside");
         let templateModtager2 = document.querySelector(".forside-hojre");
         let templateModtager3 = document.querySelector(".forside-midt");
@@ -193,6 +194,7 @@
                 }
             })
         };
+
     </script>
 </body>
 

@@ -317,6 +317,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -406,6 +407,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -495,6 +497,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -599,6 +602,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
 
@@ -677,6 +681,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -771,6 +776,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -870,6 +876,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
 
@@ -943,6 +950,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1029,6 +1037,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1118,6 +1127,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1213,6 +1223,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1300,6 +1311,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1388,6 +1400,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1475,6 +1488,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1570,6 +1584,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1657,6 +1672,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1744,6 +1760,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1831,6 +1848,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -1918,6 +1936,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -2005,6 +2024,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {
@@ -2052,7 +2072,7 @@
 
      .forside-collage {
 
-         margin-left: 320px;
+         margin-left: 235px;
          display: grid;
          grid-template-columns: 250px 520px 250px;
          grid-gap: 20px;
@@ -2093,6 +2113,7 @@
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;
+         cursor: pointer;
      }
 
      .forside-midt .overlay {

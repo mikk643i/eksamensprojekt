@@ -8,11 +8,56 @@
     <link rel="stylesheet" href="">
     <style>
         .data-page {
-            width: 30vw;
+            margin-left: 10vw;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+
+        }
+
+        .funitureBillede {
+            width: 70vw;
+        }
+
+
+        .funitureInfo {
+            width: 70vw;
+        }
+
+        .data_billeder {
+            width: 75vw;
+
         }
 
         p {
             font-family: sans-serif;
+            line-height: 30px;
+        }
+
+        h1 {
+            font-family: sans-serif;
+        }
+
+        @media screen and (min-width: 1400px) {
+            .data-page {
+                margin-left: 10vw;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+            }
+
+            .funitureBillede {
+                width: 30vw;
+            }
+
+
+            .funitureInfo {
+                width: 40vw;
+            }
+
+            .data_billeder {
+                width: 35vw;
+
+            }
         }
     </style>
 </head>
@@ -25,12 +70,21 @@
 
 <article class="data-page">
 
-    <img class="data_billeder" src="" alt="">
-    <h2 class="data-title"></h2>
-    <p class=".data-rubrik"></p>
-    <p class="data-beskrivelse"></p>
+
+    <div class="funitureBillede">
+        <img class="data_billeder" src="" alt="">
+    </div>
+
+    <div class="funitureInfo">
+        <h1 class="data-title"></h1>
+        <p class="data-beskrivelse"></p>
+    </div>
+
+
 
 </article>
+
+
 
 
 
@@ -81,6 +135,7 @@
                     dest.querySelector(".data-title").textContent = port.title.rendered;
                     dest.querySelector(".data_billeder").src = port.acf.billedefront.url;
                     dest.querySelector(".data-beskrivelse").textContent = port.acf.beskrivelse;
+
 
                 }
             });
