@@ -27,86 +27,567 @@ font-size: 30px;
 }
 */
 
-        #rudr_userinfo {
-            display: flex;
-            align-content: center;
-            margin: auto;
-            width: 50vw;
+        @media screen and (max-width: 730px) {
+            #rudr_userinfo {
+                display: block;
+                align-content: center;
+                margin: auto;
+                width: 68vw;
+            }
+
+            #rudr_userinfo h1 {
+                font-size: 1.4em;
+            }
+
+            #rudr_userinfo img {
+                display: block;
+                align-content: center;
+                border-radius: 50%;
+                margin: 38px auto;
+            }
+
+            #rudr_userinfo p a {
+
+                text-decoration: none;
+
+                font-family: 'Open Sans', sans-serif;
+            }
+
+
+            #rudr_instafeed {
+                display: inline-grid;
+                grid-template-columns: 100vw;
+
+
+            }
+
+            #rudr_instafeed img {
+                width: 70vw;
+                display: block;
+
+                margin: 20px auto;
+            }
+
+            li {
+                list-style-type: none;
+
+            }
+
+            #rudr_instafeed p {
+                display: block;
+                font-size: 0.8em;
+                margin: auto;
+                width: 70vw;
+            }
         }
 
 
+        /*Når skærmen er en vide på minumum 730px*/
 
-        #rudr_userinfo img {
-            border-radius: 50%;
-            margin: 10px;
+        @media screen and (min-width: 730px) {
+            #rudr_userinfo {
+                display: flex;
+                align-content: center;
+                margin: auto 63px;
+                width: 70vw;
+            }
+
+
+
+
+            #rudr_userinfo img {
+                border-radius: 50%;
+                margin: 10px 50px;
+            }
+
+            #rudr_userinfo p a {
+
+                text-decoration: none;
+
+                font-family: 'Open Sans', sans-serif;
+                width: 30vw;
+            }
+
+
+            #rudr_instafeed {
+                display: inline-grid;
+                grid-template-columns: 50vw 50vw;
+
+
+            }
+
+            #rudr_instafeed img {
+                width: 40vw;
+                display: block;
+
+                margin: 20px auto;
+
+            }
+
+            li {
+                list-style-type: none;
+
+            }
+
+            #rudr_instafeed p {
+                display: block;
+                font-size: 0.8em;
+                margin: auto;
+                width: 40vw;
+            }
         }
 
-        #rudr_userinfo p a {
 
-            text-decoration: none;
+        @media screen and (min-width: 800px) {
+            #rudr_userinfo {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                width: 58vw;
+            }
 
-            font-family: 'Open Sans', sans-serif;
+
+
+            #rudr_userinfo img {
+                border-radius: 50%;
+                margin: 10px 50px;
+            }
+
+            #rudr_userinfo p a {
+
+                text-decoration: none;
+
+                font-family: 'Open Sans', sans-serif;
+            }
+
+
+            #rudr_instafeed {
+                display: inline-grid;
+                grid-template-columns: 50vw 50vw;
+
+
+            }
+
+            #rudr_instafeed img {
+                width: 40vw;
+                display: block;
+
+                margin: 20px auto;
+            }
+
+            li {
+                list-style-type: none;
+
+            }
+
+            #rudr_instafeed p {
+                display: block;
+                font-size: 0.8em;
+                margin: auto;
+                width: 40vw;
+            }
         }
 
 
-        #rudr_instafeed {
-            display: inline-grid;
-            grid-template-columns: 33vw 33vw 33vw;
+        @media screen and (min-width: 900px) {
+            #rudr_userinfo {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                width: 61vw;
+            }
+
+
+
+            #rudr_userinfo img {
+                border-radius: 50%;
+                margin: 10px 50px;
+            }
+
+            #rudr_userinfo p a {
+
+                text-decoration: none;
+
+                font-family: 'Open Sans', sans-serif;
+            }
+
+
+            #rudr_instafeed {
+                display: inline-grid;
+                grid-template-columns: 50vw 50vw;
+
+
+            }
+
+            #rudr_instafeed img {
+                width: 40vw;
+                display: block;
+
+                margin: 20px auto;
+            }
+
+            li {
+                list-style-type: none;
+
+            }
+
+            #rudr_instafeed p {
+                display: block;
+                font-size: 0.8em;
+                margin: auto;
+                width: 40vw;
+            }
+        }
+
+
+        /*Når skærmen er en vide på minimum 1040px*/
+
+        @media screen and (min-width: 1040px) {
+            #rudr_userinfo {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                width: 50vw;
+            }
+
+
+
+            #rudr_userinfo img {
+                border-radius: 50%;
+                margin: 10px 50px;
+            }
+
+            #rudr_userinfo p a {
+
+                text-decoration: none;
+
+                font-family: 'Open Sans', sans-serif;
+            }
+
+
+            #rudr_instafeed {
+                display: inline-grid;
+                grid-template-columns: 50vw 50vw;
+
+
+            }
+
+            #rudr_instafeed img {
+                width: 40vw;
+                display: block;
+
+                margin: 20px auto;
+            }
+
+            li {
+                list-style-type: none;
+
+            }
+
+            #rudr_instafeed p {
+                display: block;
+                font-size: 0.8em;
+                margin: auto;
+                width: 40vw;
+            }
+        }
+
+
+        @media screen and (min-width: 1080px) {
+            #rudr_userinfo {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                width: 50vw;
+            }
+
+
+
+            #rudr_userinfo img {
+                border-radius: 50%;
+                margin: 10px 50px;
+            }
+
+            #rudr_userinfo p a {
+
+                text-decoration: none;
+
+                font-family: 'Open Sans', sans-serif;
+            }
+
+
+            #rudr_instafeed {
+                display: inline-grid;
+                grid-template-columns: 50vw 50vw;
+
+
+            }
+
+            #rudr_instafeed img {
+                width: 40vw;
+                display: block;
+
+                margin: 20px auto;
+            }
+
+            li {
+                list-style-type: none;
+
+            }
+
+            #rudr_instafeed p {
+                display: block;
+                font-size: 0.8em;
+                margin: auto;
+                width: 40vw;
+            }
+        }
+
+        @media screen and (min-width: 1100px) {
+            #rudr_userinfo {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                width: 50vw;
+            }
+
+
+
+            #rudr_userinfo img {
+                border-radius: 50%;
+                margin: 10px 50px;
+            }
+
+            #rudr_userinfo p a {
+
+                text-decoration: none;
+
+                font-family: 'Open Sans', sans-serif;
+            }
+
+
+            #rudr_instafeed {
+                display: inline-grid;
+                grid-template-columns: 50vw 50vw;
+
+
+            }
+
+            #rudr_instafeed img {
+                width: 40vw;
+                display: block;
+
+                margin: 20px auto;
+            }
+
+            li {
+                list-style-type: none;
+
+            }
+
+            #rudr_instafeed p {
+                display: block;
+                font-size: 0.8em;
+                margin: auto;
+                width: 40vw;
+            }
+        }
+
+        @media screen and (min-width: 1180px) {
+            #rudr_userinfo {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                width: 50vw;
+            }
+
+
+
+            #rudr_userinfo img {
+                border-radius: 50%;
+                margin: 10px 50px;
+            }
+
+            #rudr_userinfo p a {
+
+                text-decoration: none;
+
+                font-family: 'Open Sans', sans-serif;
+            }
+
+
+            #rudr_instafeed {
+                display: inline-grid;
+                grid-template-columns: 33vw 33vw 33vw;
+
+
+            }
+
+            #rudr_instafeed img {
+                width: 30vw;
+                display: block;
+
+                margin: 20px auto;
+            }
+
+            li {
+                list-style-type: none;
+
+            }
+
+            #rudr_instafeed p {
+                display: block;
+                font-size: 0.8em;
+                margin: auto;
+                width: 30vw;
+            }
+        }
+
+        @media screen and (min-width: 1280px) {
+            #rudr_userinfo {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                width: 50vw;
+            }
+
+
+
+            #rudr_userinfo img {
+                border-radius: 50%;
+                margin: 10px 50px;
+            }
+
+            #rudr_userinfo p a {
+
+                text-decoration: none;
+
+                font-family: 'Open Sans', sans-serif;
+            }
+
+
+            #rudr_instafeed {
+                display: inline-grid;
+                grid-template-columns: 33vw 33vw 33vw;
+
+
+            }
+
+            #rudr_instafeed img {
+                width: 30vw;
+                display: block;
+
+                margin: 20px auto;
+            }
+
+            li {
+                list-style-type: none;
+
+            }
+
+            #rudr_instafeed p {
+                display: block;
+                font-size: 0.8em;
+                margin: auto;
+                width: 30vw;
+            }
 
 
         }
 
-        #rudr_instafeed img {
-            width: 30vw;
-            margin-top: 20px;
-        }
+        @media screen and (min-width: 1530px) {
 
-        li {
-            list-style-type: none;
+            #rudr_userinfo {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                width: 50vw;
+            }
 
+
+
+            #rudr_userinfo img {
+                border-radius: 50%;
+                margin: 10px 50px;
+            }
+
+            #rudr_userinfo p a {
+
+                text-decoration: none;
+
+                font-family: 'Open Sans', sans-serif;
+            }
+
+
+            #rudr_instafeed {
+                display: inline-grid;
+                grid-template-columns: 33vw 33vw 33vw;
+
+
+            }
+
+            #rudr_instafeed img {
+                width: 30vw;
+                display: block;
+
+                margin: 20px auto;
+            }
+
+            li {
+                list-style-type: none;
+
+            }
+
+            #rudr_instafeed p {
+                display: block;
+                font-size: 0.8em;
+                margin: auto;
+                width: 30vw;
+            }
         }
 
     </style>
 
 
     <?php include "header.html"; ?>
+
     <div id="rudr_userinfo"> </div>
+
+
+
+
     <div id="rudr_instafeed"></div>
 
     <?php include "footer.html"; ?>
 
     <script>
-        var token = 'YOUR INSTAGRAM TOKEN',
-            num_photos = 20, // maximum 20
-            container = document.getElementById('rudr_instafeed'), // it is our <ul id="rudr_instafeed">
-            scrElement = document.createElement('script');
-
-        window.mishaProcessResult = function(data) {
-            for (x in data.data) {
-                container.innerHTML += '<li><img src="' + data.data[x].images.low_resolution.url + '"></li>';
-            }
-        }
-
-        scrElement.setAttribute('src', 'https://api.instagram.com/v1/users/self/media/recent?access_token=243468568.1677ed0.b95c8575a280433d81778312a20fceb8&callback=callbackFunction' + token + '&count=' + num_photos + '&callback=mishaProcessResult');
-        document.body.appendChild(scrElement);
-
-
-
-
-        var token = '243468568.1677ed0.b95c8575a280433d81778312a20fceb8',
+        var num_photos = 3,
+            container = document.getElementById('rudr_instafeed'),
+            scrElement = document.createElement('script'),
+            token = '9602470857.1677ed0.e3b6ff533da042a18f6d33a4a8daa074',
             container2 = document.getElementById('rudr_userinfo'),
-            scrElement2 = document.createElement('script');
+            scrElement2 = document.createElement('script');;
+        // Profil information
 
         window.mishaProcessResult2 = function(response) {
             container2.innerHTML = '<div><p><img src="' + response.data.profile_picture + '"></p></div>' +
-                '<div><h1>' + response.data.username + '</h1>' +
-                '<p>#' + response.data.id + '</p>' +
-                '<p>' + response.data.counts.media + ' media ' + response.data.counts.followed_by + ' followers ' + response.data.counts.follows + ' follows</p>' +
-                '<p><strong>' + response.data.full_name + '</strong> ' + response.data.bio + '<a href="' + response.data.website + '">' + response.data.website + '</a></p></div>';
+                '<div><h1>' + response.data.username + '</h1>' + '<p>' + response.data.counts.media + ' Posts ' + response.data.counts.followed_by + ' Followers ' + response.data.counts.follows + ' Follows</p><strong>' + response.data.full_name + '</strong><p> ' + response.data.bio + '<a href="' + response.data.website + '">' + response.data.website + '</a></p></div>';
         }
 
         scrElement2.setAttribute('src', 'https://api.instagram.com/v1/users/self?access_token=' + token + '&callback=mishaProcessResult2');
         document.body.appendChild(scrElement2);
+
+        //Billeder og billede tekst
+
+
+        window.mishaProcessResult = function(data) {
+            for (x in data.data) {
+                container.innerHTML += '<li><p><img src="' + data.data[x].images.standard_resolution.url + '"><strong>' + data.data[x].likes.count + ' Likes ' + data.data[x].comments.count + ' Comments <br></strong>' + data.data[x].caption.text + '</p> </li>';
+            }
+        }
+
+        scrElement.setAttribute('src', 'https://api.instagram.com/v1/users/self/media/recent?access_token=9602470857.1677ed0.e3b6ff533da042a18f6d33a4a8daa074&callback=callbackFunction' + token + '&count=' + num_photos + '&callback=mishaProcessResult');
+        document.body.appendChild(scrElement);
 
     </script>
 </body>
