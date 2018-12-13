@@ -10,30 +10,54 @@
         .data-page {
             margin-left: 10vw;
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
 
         }
 
         .funitureBillede {
-            width: 35vw;
+            width: 70vw;
         }
 
 
         .funitureInfo {
-            width: 36vw;
+            width: 70vw;
         }
 
         .data_billeder {
-            width: 35vw;
+            width: 75vw;
 
         }
 
         p {
             font-family: sans-serif;
+            line-height: 30px;
         }
 
         h1 {
             font-family: sans-serif;
+        }
+
+        @media screen and (min-width: 1400px) {
+            .data-page {
+                margin-left: 10vw;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+            }
+
+            .funitureBillede {
+                width: 30vw;
+            }
+
+
+            .funitureInfo {
+                width: 40vw;
+            }
+
+            .data_billeder {
+                width: 35vw;
+
+            }
         }
 
     </style>
