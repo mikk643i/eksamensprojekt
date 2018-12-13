@@ -12,6 +12,8 @@
 
 <body>
     <?php include "header.html"; ?>
+
+    
     <!-- Tidslinjens kode er lavet som en liste med de passende tags indeni. -->
   <section class="timeline">
     <ul>
