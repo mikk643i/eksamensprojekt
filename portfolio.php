@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="portfolioStyle.css">
     <link rel="stylesheet" href="samlet.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+
 </head>
 
 <body>
@@ -20,16 +21,18 @@
     <template id="wp_template">
 
         <article class="data-page">
-            <h2 class="data-title"></h2>
+
             <img class="data_img" src="" alt="">
-            <p class="data-kategori"></p>
-            <p class="data-beskrivelse"></p>
+            <div class="overlay">
+                <p class="data-title"></p>
+            </div>
+
         </article>
     </template>
 
 
+    <?php include "footer.html"; ?>
 
-   <?php include "footer.html"; ?>
 
     <script>
         let minTemplate = document.querySelector("#wp_template");
@@ -55,10 +58,14 @@
 
             chrPortfolio.forEach(port => {
                 let klon = minTemplate.cloneNode("true").content;
-                klon.querySelector(".data-title").textContent = port.title.rendered;
+
                 klon.querySelector(".data_img").src = port.acf.billedefront.url;
-                klon.querySelector(".data-kategori").textContent = port.acf.kategori;
-                klon.querySelector(".data-beskrivelse").textContent = port.acf.beskrivelse;
+                klon.querySelector(".data-title").textContent = port.title.rendered;
+
+                klon.querySelector(".data-page").addEventListener("click", () => {
+                    window.location.href = "single.html?id=" + port.id;
+
+                });
 
                 templateModtager.appendChild(klon);
             });
