@@ -10,6 +10,16 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 
+strong {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+strong p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
 }

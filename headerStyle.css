@@ -204,7 +204,7 @@
     .normal {
         display: block;
         margin: 0px auto 30px;
-        width: 93%;
+        width: 89%;
         margin-top: 28px;
         /*
         margin-left: 0;
@@ -283,7 +283,7 @@
     .normal {
         display: block;
         margin: 0px auto 30px;
-        width: 89%;
+        width: 85%;
         margin-top: 30px;
         /*
         margin-left: 0;
@@ -313,6 +313,163 @@
         display: block;
         text-align: center;
         margin: 5px 60px;
+        text-decoration: none;
+    }
+
+    .normal ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .normal a:hover {
+        color: #dbdbdb;
+
+
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 974px) {
+
+    .hidden {
+        display: none;
+    }
+
+    .menubutton {
+        display: none;
+    }
+
+
+
+    header img {
+        display: block;
+        margin: 30px auto;
+        width: 13vw;
+        /*
+        margin-left: 17vw;
+        margin-top: 30px;
+
+        align-items: center;
+        padding-left: 20px;
+*/
+    }
+
+    .normal {
+        display: block;
+        margin: 0px auto 30px;
+        width: 69%;
+        margin-top: 35px;
+        /*
+        margin-left: 0;
+        margin-top: 50px;
+        align-content: space-between;
+        align-items: center;
+*/
+
+    }
+
+    .normal a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        /*        font-weight: normal;*/
+
+
+    }
+
+    .normal li {
+        float: left;
+        margin-left: 1.5vw;
+    }
+
+    .normal li a {
+        color: rgb(0, 0, 0);
+        display: block;
+        text-align: center;
+        margin: 5px 49px;
+        text-decoration: none;
+    }
+
+    .normal ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .normal a:hover {
+        color: #dbdbdb;
+
+
+    }
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .hidden {
+        display: none;
+    }
+
+    .menubutton {
+        display: none;
+    }
+
+
+
+    header img {
+        display: block;
+        margin: 30px auto;
+        width: 13vw;
+        /*
+        margin-left: 17vw;
+        margin-top: 30px;
+
+        align-items: center;
+        padding-left: 20px;
+*/
+    }
+
+    .normal {
+        display: block;
+        margin: 0px auto 30px;
+        width: 68%;
+        margin-top: 35px;
+        /*
+        margin-left: 0;
+        margin-top: 50px;
+        align-content: space-between;
+        align-items: center;
+*/
+
+    }
+
+    .normal a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        /*        font-weight: normal;*/
+
+
+    }
+
+    .normal li {
+        float: left;
+        margin-left: 1.5vw;
+    }
+
+    .normal li a {
+        color: rgb(0, 0, 0);
+        display: block;
+        text-align: center;
+        margin: 5px 49px;
         text-decoration: none;
     }
 
@@ -521,7 +678,7 @@
     .normal {
         display: block;
         margin: 0px auto 30px;
-        width: 51%;
+        width: 52%;
         margin-top: 50px;
         /*
         margin-left: 0;
