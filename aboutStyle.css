@@ -33,7 +33,7 @@
 }
 
 .timeline ul li div::before {
-    content: '';
+
     position: absolute;
     bottom: 7px;
     width: 0;
