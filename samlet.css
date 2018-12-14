@@ -22,12 +22,11 @@ strong p {
 }
 
 h1 {
-<<<<<<< HEAD
+
     font-family: 'Open sans', sans-serif;
-=======
-    font-family: 'Montserrat', sans-serif;
+
     text-decoration: none;
->>>>>>> origin/master
+
 }
 
 h2 {
