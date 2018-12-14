@@ -26,6 +26,11 @@ font-weight: 300;
 font-size: 30px;
 }
 */
+        #rudr_userinfo a {
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            color: black;
+        }
 
         @media screen and (max-width: 730px) {
             #rudr_userinfo {
@@ -466,6 +471,7 @@ font-size: 30px;
             }
 
 
+
             #rudr_instafeed {
                 display: inline-grid;
                 grid-template-columns: 33vw 33vw 33vw;
@@ -519,6 +525,7 @@ font-size: 30px;
             }
 
 
+
             #rudr_instafeed {
                 display: inline-grid;
                 grid-template-columns: 33vw 33vw 33vw;
@@ -570,8 +577,8 @@ font-size: 30px;
         // Profil information
 
         window.mishaProcessResult2 = function(response) {
-            container2.innerHTML = '<div><p><img src="' + response.data.profile_picture + '"></p></div>' +
-                '<div><h1>' + response.data.username + '</h1>' + '<p>' + response.data.counts.media + ' Posts ' + response.data.counts.followed_by + ' Followers ' + response.data.counts.follows + ' Follows</p><strong>' + response.data.full_name + '</strong><p> ' + response.data.bio + '<a href="' + response.data.website + '">' + response.data.website + '</a></p></div>';
+            container2.innerHTML = '<div><p><a href="https://www.instagram.com/test.kea.2018/?hl=da"><img src="' + response.data.profile_picture + '"></a></p></div>' +
+                '<div><h1><a href="https://www.instagram.com/test.kea.2018/?hl=da">' + response.data.username + '</a></h1>' + '<p>' + response.data.counts.media + ' Posts ' + response.data.counts.followed_by + ' Followers ' + response.data.counts.follows + ' Follows</p><strong>' + response.data.full_name + '</strong><p> ' + response.data.bio + '<a href="' + response.data.website + '">' + response.data.website + '</a></p></div>';
         }
 
         scrElement2.setAttribute('src', 'https://api.instagram.com/v1/users/self?access_token=' + token + '&callback=mishaProcessResult2');
@@ -582,7 +589,7 @@ font-size: 30px;
 
         window.mishaProcessResult = function(data) {
             for (x in data.data) {
-                container.innerHTML += '<li><p><img src="' + data.data[x].images.standard_resolution.url + '"><strong>' + data.data[x].likes.count + ' Likes ' + data.data[x].comments.count + ' Comments <br></strong>' + data.data[x].caption.text + '</p> </li>';
+                container.innerHTML += '<li><p><a href="' + data.data[x].link + '"><img src="' + data.data[x].images.standard_resolution.url + '"><strong></a>' + data.data[x].likes.count + ' Likes ' + data.data[x].comments.count + ' Comments <br></strong>' + data.data[x].caption.text + '</p> </li>';
             }
         }
 
