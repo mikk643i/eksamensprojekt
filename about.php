@@ -2,6 +2,7 @@
 <html lang="da">
 
 <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
@@ -61,7 +62,7 @@
             <li>
                 <div>
                     <h4>2013</h4> <strong>Assistent and Tradeshow responsible at Ørgreen Optics.</strong><br>
-                    <h2>Awards</h2>
+
                 </div>
             </li>
             <li>
@@ -77,7 +78,7 @@
                     <h4>2009 - 2011</h4> <strong>Apprentice as cabinetmaker at Rud. Rasmussen / Denmark.<br>
                         Admitted at The Royal Danish Academy of Fine Arts, School of Architecture, Design and
                         Conservation.</strong>
-                    <h3>Awards</h3>
+
                 </div>
             </li>
 
