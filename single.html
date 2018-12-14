@@ -61,7 +61,6 @@
 
             }
         }
-
     </style>
 </head>
 
@@ -138,12 +137,15 @@
                     dest.querySelector(".data-title").textContent = port.title.rendered;
                     dest.querySelector(".data_billeder").src = port.acf.billedefront.url;
                     dest.querySelector(".data-beskrivelse").textContent = port.acf.beskrivelse;
+                    dest.querySelector(".data_billeder").src = port.acf.billede1.url;
+                    dest.querySelector(".data_billeder").src = port.acf.billede2.url;
+                    dest.querySelector(".data_billeder").src = port.acf.billede3.url;
+                    dest.querySelector(".data_billeder").src = port.acf.billede4.url;
 
 
                 }
             });
         }
-
     </script>
 </body>
 
