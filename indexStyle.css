@@ -10,7 +10,7 @@
      }
 
      .forside-collage {
-         margin-left: -2px;
+         margin-left: 3px;
          margin-top: 50px;
      }
 
@@ -1087,7 +1087,7 @@
      }
 
      .forside-collage {
-         margin-left: 90px;
+         margin-left: 110px;
          display: grid;
          grid-template-columns: 150px 305px 150px;
          grid-gap: 20px;
@@ -1271,7 +1271,7 @@
      }
 
      .forside-collage {
-         margin-left: 65px;
+         margin-left: 90px;
          display: grid;
          grid-template-columns: 200px 411px 200px;
          grid-gap: 20px;
@@ -1360,7 +1360,7 @@
      }
 
      .forside-collage {
-         margin-left: 90px;
+         margin-left: 95px;
          display: grid;
          grid-template-columns: 200px 411px 200px;
          grid-gap: 20px;
@@ -1808,7 +1808,7 @@
 
      .forside-collage {
 
-         margin-left: 120px;
+         margin-left: 150px;
          display: grid;
          grid-template-columns: 250px 520px 250px;
          grid-gap: 20px;
@@ -1883,7 +1883,32 @@
      }
  }
 
+ @media screen and (min-width: 1345px) {
+     .forside-collage {
+
+         margin-left: 150px;
+         display: grid;
+         grid-template-columns: 250px 520px 250px;
+         grid-gap: 20px;
+
+     }
+ }
+
+
  @media screen and (min-width: 1390px) {
+     .forside-collage {
+
+         margin-left: 165px;
+         display: grid;
+         grid-template-columns: 250px 520px 250px;
+         grid-gap: 20px;
+
+     }
+
+ }
+
+
+ @media screen and (min-width: 1420px) {
      img {
          width: 250px;
      }
@@ -1896,7 +1921,7 @@
 
      .forside-collage {
 
-         margin-left: 169px;
+         margin-left: 195px;
          display: grid;
          grid-template-columns: 250px 520px 250px;
          grid-gap: 20px;
@@ -1984,7 +2009,7 @@
 
      .forside-collage {
 
-         margin-left: 200px;
+         margin-left: 220px;
          display: grid;
          grid-template-columns: 250px 520px 250px;
          grid-gap: 20px;
@@ -1999,8 +2024,8 @@
 
      .data-page {
          position: relative;
-         width: 250px;
-         height: auto;
+         width: 247px;
+         height: 373px;
      }
 
      .data-page:hover .overlay {
@@ -2019,8 +2044,8 @@
          bottom: 0;
          left: 0;
          right: 0;
-         width: 250px;
-         height: auto;
+         width: 247px;
+         height: 373px;
          opacity: 0;
          transition: 5.s ease;
          background-color: #BDBCBC;

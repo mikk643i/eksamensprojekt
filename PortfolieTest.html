@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="portfolioStyle.css">
+
     <link rel="stylesheet" href="samlet.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <style>
         @media screen and (min-width: 300px) {
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -34,6 +35,7 @@
         }
 
         @media screen and (min-width: 350px) {
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -58,6 +60,8 @@
         }
 
         @media screen and (min-width: 375px) {
+
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -83,6 +87,8 @@
 
 
         @media screen and (min-width: 400px) {
+
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -108,6 +114,8 @@
 
 
         @media screen and (min-width: 450px) {
+
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -133,6 +141,7 @@
 
 
         @media screen and (min-width: 500px) {
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -157,6 +166,7 @@
         }
 
         @media screen and (min-width: 550px) {
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -181,6 +191,8 @@
         }
 
         @media screen and (min-width: 600px) {
+
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -205,6 +217,8 @@
         }
 
         @media screen and (min-width: 650px) {
+
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -229,6 +243,8 @@
         }
 
         @media screen and (min-width: 700px) {
+
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -254,6 +270,8 @@
 
 
         @media screen and (min-width: 750px) {
+
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -278,6 +296,8 @@
         }
 
         @media screen and (min-width: 800px) {
+
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -351,6 +371,23 @@
 
 
         @media screen and (min-width: 850px) {
+            .filtrering {
+                text-align: center;
+            }
+
+            button {
+                background-color: rgba(255, 255, 255, 0);
+                border: none;
+                padding: 9px 24px;
+                margin: 34px 10px;
+                font-family: 'Open sans', sans-serif;
+                font-size: 1em;
+            }
+
+            button:hover {
+                color: #BDBCBC;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -360,7 +397,7 @@
             }
 
             .portfolio {
-                margin-left: 17vw;
+                margin-left: 18vw;
                 display: grid;
                 width: 60vw;
                 height: 105vw;
@@ -504,7 +541,7 @@
             }
 
             .portfolio {
-                margin-left: 17vw;
+                margin-left: 19vw;
                 display: grid;
                 width: 60vw;
                 height: 105vw;
@@ -936,7 +973,7 @@
             }
 
             .portfolio {
-                margin-left: 8vw;
+                margin-left: 10vw;
                 display: grid;
                 width: 80vw;
                 height: 45vw;
@@ -1141,15 +1178,23 @@
                 opacity: 1;
             }
         }
-
     </style>
 </head>
 
 
 
 <body>
+    <div class="filtreringsknapper">
+        <div class="filtrering">
+            <button class="menu-item" data-kategori="Alle">All funitures</button>
+            <button class="menu-item" data-kategori="Chair">Chairs</button>
+            <button class="menu-item" data-kategori="Table">Tables</button>
+            <button class="menu-item" data-kategori="Bench">Bench</button>
+            <button class="menu-item" data-kategori="Stool">Stool</button>
 
+        </div>
 
+    </div>
 
 
     <section class="portfolio"></section>
@@ -1176,19 +1221,17 @@
         let chrPortfolio;
 
 
-
-
         document.addEventListener("DOMContentLoaded", getJson);
         async function getJson() {
-
-
             let portfolioObjekt = await fetch("http://schaadtdesign.dk/kea/eksamen/wordpress/wp-json/wp/v2/portfolio");
             chrPortfolio = await portfolioObjekt.json();
             console.log(chrPortfolio);
 
-
             visPost();
         }
+
+
+
 
         function visPost() {
 
@@ -1206,7 +1249,6 @@
                 templateModtager.appendChild(klon);
             });
         }
-
     </script>
 </body>
 

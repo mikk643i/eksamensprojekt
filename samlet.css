@@ -1,27 +1,28 @@
 article {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
 }
 
 a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 strong {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
 }
 
 strong p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open sans', sans-serif;
 }
 
 h2 {
@@ -29,6 +30,10 @@ h2 {
 }
 
 h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
     font-family: 'Open Sans', sans-serif;
 }
 

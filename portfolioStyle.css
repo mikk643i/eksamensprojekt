@@ -1,5 +1,29 @@
- @media screen and (min-width: 300px) {
-                .data-page {
+button {
+            background-color: #E8E7E9;
+            border: none;
+            padding: 7px 20px;
+            margin: 5px;
+            font-family: 'Open sans', sans-serif;
+        }
+
+        button:hover {
+            background-color: #BDBCBC;
+        }
+
+        @media screen and (min-width: 300px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 7px 5px;
+                margin: 5px;
+                font-family: 'Open sans', sans-serif;
+            }
+
+            button:hover {
+                background-color: #BDBCBC;
+            }
+
+            .data-page {
                 text-align: center;
                 padding: 40px;
                 font-family: 'Avenir-Black';
@@ -23,7 +47,15 @@
         }
 
         @media screen and (min-width: 350px) {
-                .data-page {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 7px 6px;
+                margin: 5px;
+                font-family: 'Open sans', sans-serif;
+            }
+
+            .data-page {
                 text-align: center;
                 padding: 40px;
                 font-family: 'Avenir-Black';
@@ -47,6 +79,14 @@
         }
 
         @media screen and (min-width: 375px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 7px 7px;
+                margin: 5px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -72,6 +112,14 @@
 
 
         @media screen and (min-width: 400px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 7px 10px;
+                margin: 5px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -97,6 +145,14 @@
 
 
         @media screen and (min-width: 450px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 7px 14px;
+                margin: 7px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -122,6 +178,14 @@
 
 
         @media screen and (min-width: 500px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 8px 19px;
+                margin: 7px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -146,6 +210,14 @@
         }
 
         @media screen and (min-width: 550px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 7px 22px;
+                margin: 9px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -170,6 +242,14 @@
         }
 
         @media screen and (min-width: 600px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 9px 22px;
+                margin: 14px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -194,6 +274,14 @@
         }
 
         @media screen and (min-width: 650px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 9px 22px;
+                margin: 14px 19px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -218,6 +306,14 @@
         }
 
         @media screen and (min-width: 700px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 9px 24px;
+                margin: 14px 23px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -243,6 +339,14 @@
 
 
         @media screen and (min-width: 750px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 9px 30px;
+                margin: 14px 21px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -267,6 +371,14 @@
         }
 
         @media screen and (min-width: 800px) {
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 9px 24px;
+                margin: 14px 32px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -340,6 +452,18 @@
 
 
         @media screen and (min-width: 850px) {
+            .filtrering {
+                text-align: center;
+            }
+
+            button {
+                background-color: #E8E7E9;
+                border: none;
+                padding: 9px 24px;
+                margin: 34px 8px;
+                font-family: 'Open sans', sans-serif;
+            }
+
             .data-page {
                 text-align: center;
                 padding: 40px;
@@ -349,7 +473,7 @@
             }
 
             .portfolio {
-                margin-left: 17vw;
+                margin-left: 18vw;
                 display: grid;
                 width: 60vw;
                 height: 105vw;
@@ -493,7 +617,7 @@
             }
 
             .portfolio {
-                margin-left: 17vw;
+                margin-left: 19vw;
                 display: grid;
                 width: 60vw;
                 height: 105vw;
@@ -925,7 +1049,7 @@
             }
 
             .portfolio {
-                margin-left: 8vw;
+                margin-left: 10vw;
                 display: grid;
                 width: 80vw;
                 height: 45vw;
