@@ -1,1256 +1,1262 @@
 button {
-            background-color: #E8E7E9;
-            border: none;
-            padding: 7px 20px;
-            margin: 5px;
-            font-family: 'Open sans', sans-serif;
-        }
-
-        button:hover {
-            background-color: #BDBCBC;
-        }
-
-        @media screen and (min-width: 300px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 7px 5px;
-                margin: 5px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            button:hover {
-                background-color: #BDBCBC;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 2vw;
-                display: grid;
-                width: 80vw;
-                height: 544vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 80vw;
-                cursor: pointer;
-            }
-        }
-
-        @media screen and (min-width: 350px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 7px 6px;
-                margin: 5px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 2vw;
-                display: grid;
-                width: 80vw;
-                height: 544vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 80vw;
-                cursor: pointer;
-            }
-        }
-
-        @media screen and (min-width: 375px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 7px 7px;
-                margin: 5px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 2vw;
-                display: grid;
-                width: 80vw;
-                height: 544vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 80vw;
-                cursor: pointer;
-            }
-        }
-
-
-        @media screen and (min-width: 400px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 7px 10px;
-                margin: 5px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 3vw;
-                display: grid;
-                width: 80vw;
-                height: 544vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 80vw;
-                cursor: pointer;
-            }
-        }
-
-
-        @media screen and (min-width: 450px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 7px 14px;
-                margin: 7px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 4vw;
-                display: grid;
-                width: 80vw;
-                height: 544vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 80vw;
-                cursor: pointer;
-            }
-        }
-
-
-        @media screen and (min-width: 500px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 8px 19px;
-                margin: 7px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 4vw;
-                display: grid;
-                width: 80vw;
-                height: 544vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 80vw;
-                cursor: pointer;
-            }
-        }
-
-        @media screen and (min-width: 550px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 7px 22px;
-                margin: 9px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 5vw;
-                display: grid;
-                width: 80vw;
-                height: 544vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 80vw;
-                cursor: pointer;
-            }
-        }
-
-        @media screen and (min-width: 600px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 9px 22px;
-                margin: 14px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 9vw;
-                display: grid;
-                width: 80vw;
-                height: 340vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 50vw;
-                cursor: pointer;
-            }
-        }
-
-        @media screen and (min-width: 650px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 9px 22px;
-                margin: 14px 19px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 9vw;
-                display: grid;
-                width: 80vw;
-                height: 340vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 50vw;
-                cursor: pointer;
-            }
-        }
-
-        @media screen and (min-width: 700px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 9px 24px;
-                margin: 14px 23px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 9vw;
-                display: grid;
-                width: 80vw;
-                height: 340vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 50vw;
-                cursor: pointer;
-            }
-        }
-
-
-        @media screen and (min-width: 750px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 9px 30px;
-                margin: 14px 21px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 10vw;
-                display: grid;
-                width: 80vw;
-                height: 340vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 50vw;
-                cursor: pointer;
-            }
-        }
-
-        @media screen and (min-width: 800px) {
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 9px 24px;
-                margin: 14px 32px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 10vw;
-                display: grid;
-                width: 80vw;
-                height: 340vw;
-                grid-template-columns: repeat(1, 1fr);
-
-            }
-
-            .data-page img {
-                width: 50vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 4.5vw;
-                bottom: 0;
-                left: 15vw;
-                right: 0;
-                width: 50vw;
-                height: 33.3vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 0.9em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 45%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-
-        @media screen and (min-width: 850px) {
-            .filtrering {
-                text-align: center;
-            }
-
-            button {
-                background-color: #E8E7E9;
-                border: none;
-                padding: 9px 24px;
-                margin: 34px 8px;
-                font-family: 'Open sans', sans-serif;
-            }
-
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 18vw;
-                display: grid;
-                width: 60vw;
-                height: 105vw;
-                grid-template-columns: repeat(2, 1fr);
-
-            }
-
-            .data-page img {
-                width: 25vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 4.5vw;
-                bottom: 0;
-                left: 4.5vw;
-                right: 0;
-                width: 25.2vw;
-                height: 18vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 0.9em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 35%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-        @media screen and (min-width: 950px) {
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 17vw;
-                display: grid;
-                width: 60vw;
-                height: 105vw;
-                grid-template-columns: repeat(2, 1fr);
-
-            }
-
-            .data-page img {
-                width: 25vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 3.9vw;
-                bottom: 0;
-                left: 3.9vw;
-                right: 0;
-                width: 25.2vw;
-                height: 18vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 0.9em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 40%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-        @media screen and (min-width: 1000px) {
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 19vw;
-                display: grid;
-                width: 60vw;
-                height: 105vw;
-                grid-template-columns: repeat(2, 1fr);
-
-            }
-
-            .data-page img {
-                width: 25vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 3.9vw;
-                bottom: 0;
-                left: 3.9vw;
-                right: 0;
-                width: 25vw;
-                height: 18vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 0.9em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 40%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-        @media screen and (min-width: 1050px) {
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 8vw;
-                display: grid;
-                width: 80vw;
-                height: 45vw;
-                grid-template-columns: repeat(3, 1fr);
-
-            }
-
-            .data-page img {
-                width: 19vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 3.6vw;
-                bottom: 0;
-                left: 3.8vw;
-                right: 0;
-                width: 19vw;
-                height: 13vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 0.9em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 35%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-        @media screen and (min-width: 1100px) {
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 8vw;
-                display: grid;
-                width: 80vw;
-                height: 45vw;
-                grid-template-columns: repeat(3, 1fr);
-
-            }
-
-            .data-page img {
-                width: 19vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 3.5vw;
-                bottom: 0;
-                left: 3.8vw;
-                right: 0;
-                width: 19vw;
-                height: 13vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 0.9em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 35%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-        @media screen and (min-width: 1150px) {
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 8vw;
-                display: grid;
-                width: 80vw;
-                height: 45vw;
-                grid-template-columns: repeat(3, 1fr);
-
-            }
-
-            .data-page img {
-                width: 19vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 3.3vw;
-                bottom: 0;
-                left: 3.8vw;
-                right: 0;
-                width: 19vw;
-                height: 13vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 1em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 40%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-        @media screen and (min-width: 1180px) {
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 8vw;
-                display: grid;
-                width: 80vw;
-                height: 45vw;
-                grid-template-columns: repeat(3, 1fr);
-
-            }
-
-            .data-page img {
-                width: 19vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 3.2vw;
-                bottom: 0;
-                left: 3.8vw;
-                right: 0;
-                width: 19vw;
-                height: 13vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 1em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 40%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-        @media screen and (min-width: 1220px) {
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 8vw;
-                display: grid;
-                width: 80vw;
-                height: 45vw;
-                grid-template-columns: repeat(3, 1fr);
-
-            }
-
-            .data-page img {
-                width: 19vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 3vw;
-                bottom: 0;
-                left: 3.8vw;
-                right: 0;
-                width: 19vw;
-                height: 13vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 1em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 40%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-        @media screen and (min-width: 1300px) {
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 10vw;
-                display: grid;
-                width: 80vw;
-                height: 45vw;
-                grid-template-columns: repeat(3, 1fr);
-
-            }
-
-            .data-page img {
-                width: 19vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 2.9vw;
-                bottom: 0;
-                left: 3.9vw;
-                right: 0;
-                width: 19vw;
-                height: 13vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 1em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 40%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-        @media screen and (min-width: 1390px) {
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 8vw;
-                display: grid;
-                width: 80vw;
-                height: 45vw;
-                grid-template-columns: repeat(3, 1fr);
-
-            }
-
-            .data-page img {
-                width: 19vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 2.8vw;
-                bottom: 0;
-                left: 3.8vw;
-                right: 0;
-                width: 19vw;
-                height: 13vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 1em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 40%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
-
-        @media screen and (min-width: 1500px) {
-            .data-page {
-                text-align: center;
-                padding: 40px;
-                font-family: 'Avenir-Black';
-                transition: 1s;
-                overflow: hidden;
-            }
-
-            .portfolio {
-                margin-left: 8vw;
-                display: grid;
-                width: 80vw;
-                height: 45vw;
-                grid-template-columns: repeat(3, 1fr);
-
-            }
-
-            .data-page img {
-                width: 19vw;
-                cursor: pointer;
-            }
-
-            .data-page:hover {
-                z-index: 2;
-                transform: scale(1.1);
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-            .data-page:hover .overlay {
-                z-index: 2;
-                opacity: 0.9;
-            }
-
-
-
-            .overlay {
-                position: absolute;
-                top: 2.6vw;
-                bottom: 0;
-                left: 3.8vw;
-                right: 0;
-                width: 19vw;
-                height: 13vw;
-                opacity: 0;
-                transition: 5.s ease;
-                background-color: #BDBCBC;
-                cursor: pointer;
-            }
-
-            .data-title {
-                color: white;
-                font-size: 1.4em;
-                font-family: 'open sans', sans-serif;
-                position: absolute;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                font-weight: lighter;
-                top: 40%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-                opacity: 1;
-            }
-        }
+    background-color: #E8E7E9;
+    border: none;
+    padding: 7px 20px;
+    margin: 5px;
+    font-family: 'Open sans', sans-serif;
+}
+
+button:hover {
+    background-color: #BDBCBC;
+}
+
+@media screen and (min-width: 300px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 7px 5px;
+        margin: 5px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    button:hover {
+        background-color: #BDBCBC;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 2vw;
+        display: grid;
+        width: 80vw;
+        height: 544vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 80vw;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 7px 6px;
+        margin: 5px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 2vw;
+        display: grid;
+        width: 80vw;
+        height: 544vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 80vw;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 7px 7px;
+        margin: 5px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 2vw;
+        display: grid;
+        width: 80vw;
+        height: 544vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 80vw;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (min-width: 400px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 7px 10px;
+        margin: 5px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 3vw;
+        display: grid;
+        width: 80vw;
+        height: 544vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 80vw;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (min-width: 450px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 7px 14px;
+        margin: 7px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 4vw;
+        display: grid;
+        width: 80vw;
+        height: 544vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 80vw;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (min-width: 500px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 8px 19px;
+        margin: 7px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 4vw;
+        display: grid;
+        width: 80vw;
+        height: 544vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 80vw;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 7px 22px;
+        margin: 9px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 5vw;
+        display: grid;
+        width: 80vw;
+        height: 544vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 80vw;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 9px 22px;
+        margin: 14px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 9vw;
+        display: grid;
+        width: 80vw;
+        height: 340vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 50vw;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 9px 22px;
+        margin: 14px 19px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 9vw;
+        display: grid;
+        width: 80vw;
+        height: 340vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 50vw;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 9px 24px;
+        margin: 14px 23px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 9vw;
+        display: grid;
+        width: 80vw;
+        height: 340vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 50vw;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (min-width: 750px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 9px 30px;
+        margin: 14px 21px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 10vw;
+        display: grid;
+        width: 80vw;
+        height: 340vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 50vw;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 9px 24px;
+        margin: 14px 32px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 10vw;
+        display: grid;
+        width: 80vw;
+        height: 340vw;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .data-page img {
+        width: 50vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 4.5vw;
+        bottom: 0;
+        left: 15vw;
+        right: 0;
+        width: 50vw;
+        height: 33.3vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 0.9em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 45%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+
+@media screen and (min-width: 850px) {
+    .filtrering {
+        text-align: center;
+    }
+
+    button {
+        background-color: #E8E7E9;
+        border: none;
+        padding: 9px 24px;
+        margin: 34px 8px;
+        font-family: 'Open sans', sans-serif;
+    }
+
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 18vw;
+        display: grid;
+        width: 60vw;
+        height: 105vw;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .data-page img {
+        width: 25vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 4.5vw;
+        bottom: 0;
+        left: 4.5vw;
+        right: 0;
+        width: 25.2vw;
+        height: 18vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 0.9em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 35%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 17vw;
+        display: grid;
+        width: 60vw;
+        height: 105vw;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .data-page img {
+        width: 25vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 3.9vw;
+        bottom: 0;
+        left: 3.9vw;
+        right: 0;
+        width: 25.2vw;
+        height: 18vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 0.9em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 19vw;
+        display: grid;
+        width: 60vw;
+        height: 105vw;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .data-page img {
+        width: 25vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 3.9vw;
+        bottom: 0;
+        left: 3.9vw;
+        right: 0;
+        width: 25vw;
+        height: 18vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 0.9em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 8vw;
+        display: grid;
+        width: 80vw;
+        height: 45vw;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .data-page img {
+        width: 19vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 3.6vw;
+        bottom: 0;
+        left: 3.8vw;
+        right: 0;
+        width: 19vw;
+        height: 13vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 0.9em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 35%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 8vw;
+        display: grid;
+        width: 80vw;
+        height: 45vw;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .data-page img {
+        width: 19vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 3.5vw;
+        bottom: 0;
+        left: 3.8vw;
+        right: 0;
+        width: 19vw;
+        height: 13vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 0.9em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 35%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 8vw;
+        display: grid;
+        width: 80vw;
+        height: 45vw;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .data-page img {
+        width: 19vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 3.3vw;
+        bottom: 0;
+        left: 3.8vw;
+        right: 0;
+        width: 19vw;
+        height: 13vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 1em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 8vw;
+        display: grid;
+        width: 80vw;
+        height: 45vw;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .data-page img {
+        width: 19vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 3.2vw;
+        bottom: 0;
+        left: 3.8vw;
+        right: 0;
+        width: 19vw;
+        height: 13vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 1em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 8vw;
+        display: grid;
+        width: 80vw;
+        height: 45vw;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .data-page img {
+        width: 19vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 3vw;
+        bottom: 0;
+        left: 3.8vw;
+        right: 0;
+        width: 19vw;
+        height: 13vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 1em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+
+
+}
+
+@media screen and (min-width: 1300px) {
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 10vw;
+        display: grid;
+        width: 80vw;
+        height: 45vw;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .data-page img {
+        width: 19vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 2.9vw;
+        bottom: 0;
+        left: 3.9vw;
+        right: 0;
+        width: 19vw;
+        height: 13vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 1em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1390px) {
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 8vw;
+        display: grid;
+        width: 80vw;
+        height: 45vw;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .data-page img {
+        width: 19vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 2.8vw;
+        bottom: 0;
+        left: 3.8vw;
+        right: 0;
+        width: 19vw;
+        height: 13vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 1em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .data-page {
+        text-align: center;
+        padding: 40px;
+        font-family: 'Avenir-Black';
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 8vw;
+        display: grid;
+        width: 80vw;
+        height: 45vw;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .data-page img {
+        width: 19vw;
+        cursor: pointer;
+    }
+
+    .data-page:hover {
+        z-index: 2;
+        transform: scale(1.1);
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    .data-page:hover .overlay {
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 2.6vw;
+        bottom: 0;
+        left: 3.8vw;
+        right: 0;
+        width: 19vw;
+        height: 13vw;
+        opacity: 0;
+        transition: 5.s ease;
+        background-color: #BDBCBC;
+        cursor: pointer;
+    }
+
+    .data-title {
+        color: white;
+        font-size: 1.4em;
+        font-family: 'open sans', sans-serif;
+        position: absolute;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: lighter;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+.data-kategori {
+    display: none;
+}

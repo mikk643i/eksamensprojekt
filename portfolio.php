@@ -2,7 +2,7 @@
 <html lang="da">
 
 <head>
-     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
@@ -36,23 +36,24 @@
 
         </div>
 
+
+
+
+        <section class="portfolio"></section>
+
+        <template id="wp_template">
+
+            <article class="data-page">
+
+                <img class="data_img" src="" alt="">
+                <div class="overlay">
+                    <p class="data-title"></p>
+                    <p class="data-kategori"></p>
+                </div>
+
+            </article>
+        </template>
     </div>
-
-
-    <section class="portfolio"></section>
-
-    <template id="wp_template">
-
-        <article class="data-page">
-
-            <img class="data_img" src="" alt="">
-            <div class="overlay">
-                <p class="data-title"></p>
-            </div>
-
-        </article>
-    </template>
-
 
     <?php include "footer.html"; ?>
 
@@ -61,11 +62,25 @@
         let minTemplate = document.querySelector("#wp_template");
         let templateModtager = document.querySelector(".portfolio");
         let chrPortfolio;
+        let filter = "Alle"
+        let dest = document.querySelector(".portfolio");
 
 
 
 
         document.addEventListener("DOMContentLoaded", getJson);
+        filter = "Alle";
+        document.querySelectorAll(".menu-item").forEach(knap => {
+            knap.addEventListener("click", filtering)
+        });
+
+        function filtering() {
+            dest.textContent = "";
+            console.log(this.getAttribute("data-kategori"));
+
+            filter = this.getAttribute("data-kategori");
+            visPost();
+        }
         async function getJson() {
 
 
@@ -80,17 +95,23 @@
         function visPost() {
 
             chrPortfolio.forEach(port => {
-                let klon = minTemplate.cloneNode("true").content;
 
-                klon.querySelector(".data_img").src = port.acf.billedefront.url;
-                klon.querySelector(".data-title").textContent = port.title.rendered;
+                if (filter == "Alle" || filter == port.acf.kategori) {
+                    let klon = minTemplate.cloneNode("true").content;
 
-                klon.querySelector(".data-page").addEventListener("click", () => {
-                    window.location.href = "single.php?id=" + port.id;
+                    klon.querySelector(".data_img").src = port.acf.billedefront.url;
+                    klon.querySelector(".data-title").textContent = port.title.rendered;
+                    klon.querySelector(".data-kategori").textContent = port.acf.kategori;
 
-                });
+                    klon.querySelector(".data-page").addEventListener("click", () => {
+                        window.location.href = "single.php?id=" + port.id;
 
-                templateModtager.appendChild(klon);
+                    });
+
+                    templateModtager.appendChild(klon);
+                } else {
+
+                }
             });
         }
 
