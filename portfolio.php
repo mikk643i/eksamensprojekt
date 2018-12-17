@@ -86,7 +86,7 @@
                 klon.querySelector(".data-title").textContent = port.title.rendered;
 
                 klon.querySelector(".data-page").addEventListener("click", () => {
-                    window.location.href = "single.html?id=" + port.id;
+                    window.location.href = "single.php?id=" + port.id;
 
                 });
 

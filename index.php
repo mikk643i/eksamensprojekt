@@ -119,7 +119,7 @@
                     klon.querySelector(".data-title").textContent = port.title.rendered;
 
                     klon.querySelector(".data-page").addEventListener("click", () => {
-                        window.location.href = "singleH.html?id=" + port.id;
+                        window.location.href = "singleH.php?id=" + port.id;
 
                     });
 
@@ -155,7 +155,7 @@
                     klon.querySelector(".data-title").textContent = port.title.rendered;
 
                     klon.querySelector(".data-page").addEventListener("click", () => {
-                        window.location.href = "singleM.html?id=" + port.id;
+                        window.location.href = "singleM.php?id=" + port.id;
 
                     });
 
@@ -194,7 +194,7 @@
                     klon.querySelector(".data-title").textContent = port.title.rendered;
 
                     klon.querySelector(".data-page").addEventListener("click", () => {
-                        window.location.href = "singleV.html?id=" + port.id;
+                        window.location.href = "singleV.php?id=" + port.id;
 
                     });
 
