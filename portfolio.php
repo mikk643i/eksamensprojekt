@@ -26,34 +26,34 @@
 
     <?php include "header.html"; ?>
 
-    <div class="filtreringsknapper">
-        <div class="filtrering">
-            <button class="menu-item" data-kategori="Alle">All funitures</button>
-            <button class="menu-item" data-kategori="Chair">Chairs</button>
-            <button class="menu-item" data-kategori="Table">Tables</button>
-            <button class="menu-item" data-kategori="Bench">Bench</button>
-            <button class="menu-item" data-kategori="Stool">Stool</button>
+    <!--    <div class="filtreringsknapper">-->
+    <div class="filtrering">
+        <button class="menu-item" data-kategori="Alle">All funitures</button>
+        <button class="menu-item" data-kategori="Chair">Chairs</button>
+        <button class="menu-item" data-kategori="Table">Tables</button>
+        <button class="menu-item" data-kategori="Bench">Bench</button>
+        <button class="menu-item" data-kategori="Stool">Stool</button>
 
-        </div>
-
-
-
-
-        <section class="portfolio"></section>
-
-        <template id="wp_template">
-
-            <article class="data-page">
-
-                <img class="data_img" src="" alt="">
-                <div class="overlay">
-                    <p class="data-title"></p>
-                    <p class="data-kategori"></p>
-                </div>
-
-            </article>
-        </template>
     </div>
+
+
+
+
+    <section class="portfolio"></section>
+
+    <template id="wp_template">
+
+        <article class="data-page">
+
+            <img class="data_img" src="" alt="">
+            <div class="overlay">
+                <p class="data-title"></p>
+                <p class="data-kategori"></p>
+            </div>
+
+        </article>
+    </template>
+    <!--   </div>-->
 
     <?php include "footer.html"; ?>
 
