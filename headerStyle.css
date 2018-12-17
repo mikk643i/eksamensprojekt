@@ -254,6 +254,83 @@
 
 }
 
+@media screen and (min-width: 850px) {
+
+    .hidden {
+        display: none;
+    }
+
+    .menubutton {
+        display: none;
+    }
+
+
+
+    header img {
+        display: block;
+        margin: 30px auto;
+        width: 14vw;
+        /*
+        margin-left: 17vw;
+        margin-top: 30px;
+
+        align-items: center;
+        padding-left: 20px;
+*/
+    }
+
+    .normal {
+        display: block;
+        margin: 0px auto 30px;
+        width: 89%;
+        margin-top: 30px;
+        /*
+        margin-left: 0;
+        margin-top: 50px;
+        align-content: space-between;
+        align-items: center;
+*/
+
+    }
+
+    .normal a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+
+
+
+    }
+
+    .normal li {
+        float: left;
+        margin-left: 1.5vw;
+    }
+
+    .normal li a {
+        color: rgb(0, 0, 0);
+        display: block;
+        text-align: center;
+        margin: 5px 60px;
+        text-decoration: none;
+    }
+
+    .normal ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .normal a:hover {
+        color: #dbdbdb;
+
+
+    }
+
+
+
+}
 
 @media screen and (min-width: 900px) {
 
@@ -283,7 +360,7 @@
     .normal {
         display: block;
         margin: 0px auto 30px;
-        width: 85%;
+        width: 83%;
         margin-top: 30px;
         /*
         margin-left: 0;
@@ -678,7 +755,7 @@
     .normal {
         display: block;
         margin: 0px auto 30px;
-        width: 52%;
+        width: 51%;
         margin-top: 50px;
         /*
         margin-left: 0;
@@ -756,7 +833,7 @@
     .normal {
         display: block;
         margin: 0px auto 30px;
-        width: 57%;
+        width: 56%;
         margin-top: 50px;
         /*
         margin-left: 0;
@@ -771,7 +848,7 @@
         text-decoration: none;
         color: black;
         font-family: 'Open Sans', sans-serif;
-        /*        font-weight: normal;*/
+        font-weight: bold;
 
 
     }
@@ -807,6 +884,83 @@
 }
 
 
+@media screen and (min-width: 1230px) {
+
+    .hidden {
+        display: none;
+    }
+
+    .menubutton {
+        display: none;
+    }
+
+
+
+    header img {
+        display: block;
+        margin: 30px auto;
+        width: 11vw;
+        /*
+        margin-left: 17vw;
+        margin-top: 30px;
+
+        align-items: center;
+        padding-left: 20px;
+*/
+    }
+
+    .normal {
+        display: block;
+        margin: 0px auto 30px;
+        width: 54%;
+        margin-top: 50px;
+        /*
+        margin-left: 0;
+        margin-top: 50px;
+        align-content: space-between;
+        align-items: center;
+*/
+
+    }
+
+    .normal a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+
+
+    }
+
+    .normal li {
+        float: left;
+        margin-left: 1.5vw;
+    }
+
+    .normal li a {
+        color: rgb(0, 0, 0);
+        display: block;
+        text-align: center;
+        margin: 5px 47px;
+        text-decoration: none;
+    }
+
+    .normal ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .normal a:hover {
+        color: #dbdbdb;
+
+
+    }
+
+
+
+}
 
 @media screen and (min-width: 1280px) {
 
@@ -836,7 +990,164 @@
     .normal {
         display: block;
         margin: 0px auto 30px;
-        width: 57%;
+        width: 55%;
+        margin-top: 50px;
+        /*
+        margin-left: 0;
+        margin-top: 50px;
+        align-content: space-between;
+        align-items: center;
+*/
+
+    }
+
+    .normal a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        /*        font-weight: normal;*/
+
+
+    }
+
+    .normal li {
+        float: left;
+        margin-left: 1.5vw;
+    }
+
+    .normal li a {
+        color: rgb(0, 0, 0);
+        display: block;
+        text-align: center;
+        margin: 5px 50px;
+        text-decoration: none;
+    }
+
+    .normal ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .normal a:hover {
+        color: #dbdbdb;
+
+
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 1320px) {
+
+    .hidden {
+        display: none;
+    }
+
+    .menubutton {
+        display: none;
+    }
+
+
+
+    header img {
+        display: block;
+        margin: 30px auto;
+        width: 11vw;
+        /*
+        margin-left: 17vw;
+        margin-top: 30px;
+
+        align-items: center;
+        padding-left: 20px;
+*/
+    }
+
+    .normal {
+        display: block;
+        margin: 0px auto 30px;
+        width: 53%;
+        margin-top: 50px;
+        /*
+        margin-left: 0;
+        margin-top: 50px;
+        align-content: space-between;
+        align-items: center;
+*/
+
+    }
+
+    .normal a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        /*        font-weight: normal;*/
+
+
+    }
+
+    .normal li {
+        float: left;
+        margin-left: 1.5vw;
+    }
+
+    .normal li a {
+        color: rgb(0, 0, 0);
+        display: block;
+        text-align: center;
+        margin: 5px 50px;
+        text-decoration: none;
+    }
+
+    .normal ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .normal a:hover {
+        color: #dbdbdb;
+
+
+    }
+
+
+
+}
+
+@media screen and (min-width: 1420px) {
+
+    .hidden {
+        display: none;
+    }
+
+    .menubutton {
+        display: none;
+    }
+
+
+
+    header img {
+        display: block;
+        margin: 30px auto;
+        width: 11vw;
+        /*
+        margin-left: 17vw;
+        margin-top: 30px;
+
+        align-items: center;
+        padding-left: 20px;
+*/
+    }
+
+    .normal {
+        display: block;
+        margin: 0px auto 30px;
+        width: 50%;
         margin-top: 50px;
         /*
         margin-left: 0;
@@ -955,6 +1266,15 @@
 
     }
 
+
+
+}
+
+.normal a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 
 
 }

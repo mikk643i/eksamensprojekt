@@ -21,7 +21,18 @@
 <body>
     <?php include "header.html"; ?>
 
+    <iframe src="https://www.youtube.com/embed/uY0q1wA6070" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+    <div class="om">
+        <div class="om-billede">
+            <img src="assets/christian.png" alt="potræt">
+        </div>
+        <div class="om-tekst">
+            <p>Christian Juhl is a danish designer based in Copenhagen. He has a background as a cabinet maker, where had an apprenticeship at Rudolph Rasmussen. Upon this, he has a master degree in Furniture Design from The Royal Danish Academy of Fine Arts – School of Design (KADK) and graduated in 2017. He has worked for well-known Danish furniture brands such as Fritz Hansen and HAY. Currently he works at HAY and runs his own studio, where he focuses on furniture and product design. He strives to create products with an innovative yet recognizable approach. “to me, a good design has to be easy to understand and bring a relation in order for people to use it in their everyday life. I’m interested in products for everyday use and strive to bring good and long lasting solutions with an innovative and straight forward design."</p>
+        </div>
+
+    </div>
     <!-- Tidslinjens kode er lavet som en liste med de passende tags indeni. -->
     <section class="timeline">
         <ul>
