@@ -30,18 +30,68 @@
 
         }
 
+        .billeder img {
+            width: 75vw;
+            margin: 5vw;
+        }
+
+        .billeder {
+            margin-left: 5vw;
+        }
+
         p {
-            font-family: 'Montserrat', sans-serif;
+            font-family: sans-serif;
             line-height: 30px;
         }
 
         h1 {
-            font-family: 'Open sans', sans-serif;
+            font-family: sans-serif;
         }
 
-        @media screen and (min-width: 1000px) {
+        @media screen and (min-width: 750px) {
             .data-page {
-                margin-left: -7vw;
+                margin-left: 10vw;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+
+            }
+
+            .funitureBillede {
+                width: 70vw;
+            }
+
+
+            .funitureInfo {
+                width: 70vw;
+            }
+
+            .data_billeder {
+                width: 75vw;
+
+            }
+
+            .billeder img {
+                width: 35vw;
+                margin: 5vw;
+            }
+
+            .billeder {
+                margin-left: 5vw;
+            }
+
+            p {
+                font-family: sans-serif;
+                line-height: 30px;
+            }
+
+            h1 {
+                font-family: sans-serif;
+            }
+        }
+
+        @media screen and (min-width: 1400px) {
+            .data-page {
+                margin-left: 10vw;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
 
@@ -53,18 +103,29 @@
 
 
             .funitureInfo {
-                width: 40vw;
+                width: 30vw;
             }
 
             .data_billeder {
-                width: 20vw;
-                margin-left: 30vw;
+                width: 35vw;
 
             }
+
+            .billeder img {
+                width: 16.8vw;
+                margin: 1vw 0.6vw;
+            }
+
+            .billeder {
+                margin-left: 9.4vw;
+            }
+
         }
+
     </style>
 </head>
 
+<?php include "header.html"; ?>
 
 
 <section class="forside"></section>
@@ -83,13 +144,19 @@
         <p class="data-beskrivelse"></p>
     </div>
 
-
-
 </article>
 
+<div class="billeder">
+    <img class="data_billeder1" src="" alt="">
+    <img class="data_billeder2" src="" alt="">
+    <img class="data_billeder3" src="" alt="">
+    <img class="data_billeder4" src="" alt="">
+</div>
 
 
 
+
+<?php include "footer.html"; ?>
 
 
 
@@ -129,6 +196,7 @@
         function VisPost() {
 
             let dest = document.querySelector(".data-page");
+            let box = document.querySelector(".billeder");
 
             chrForside.forEach(port => {
                 console.log(VisPost);
@@ -138,11 +206,16 @@
                     dest.querySelector(".data-title").textContent = port.title.rendered;
                     dest.querySelector(".data_billeder").src = port.acf.billedefront.url;
                     dest.querySelector(".data-beskrivelse").textContent = port.acf.beskrivelse;
+                    box.querySelector(".data_billeder1").src = port.acf.billede1;
+                    box.querySelector(".data_billeder2").src = port.acf.billede2.url;
+                    box.querySelector(".data_billeder3").src = port.acf.billede3.url;
+                    box.querySelector(".data_billeder4").src = port.acf.billede4.url;
 
 
                 }
             });
         }
+
     </script>
 </body>
 

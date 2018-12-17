@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <style>
-        .data-page {
+      .data-page {
             margin-left: 10vw;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -125,6 +125,7 @@
     </style>
 </head>
 
+<?php include "header.html"; ?>
 
 
 <section class="forside"></section>
@@ -154,6 +155,8 @@
 
 
 
+    <?php include "footer.html"; ?>
+
 
 
 <body>
@@ -179,7 +182,7 @@
 
         async function getJson() {
 
-            let ForsideObjekt = await fetch("http://schaadtdesign.dk/kea/eksamen/wordpress/wp-json/wp/v2/portfolio");
+            let ForsideObjekt = await fetch("http://schaadtdesign.dk/kea/eksamen/wordpress/wp-json/wp/v2/hojre_forside");
             chrForside = await ForsideObjekt.json();
             console.log(chrForside);
 
