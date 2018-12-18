@@ -41,7 +41,7 @@
 
         p {
             font-family: sans-serif;
-            line-height: 30px;
+            line-height: 23px;
         }
 
         h1 {
@@ -81,7 +81,7 @@
 
             p {
                 font-family: sans-serif;
-                line-height: 30px;
+                line-height: 23px;
             }
 
             h1 {
