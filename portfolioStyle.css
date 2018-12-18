@@ -1,12 +1,12 @@
-/*
 button {
-    background-color: #E8E7E9;
+    background-color: #fff;
     border: none;
     padding: 7px 20px;
     margin: 5px;
     font-family: 'Open sans', sans-serif;
 }
 
+/*
 button:hover {
     background-color: #BDBCBC;
 }
@@ -14,17 +14,7 @@ button:hover {
 
 
 @media screen and (min-width: 300px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 7px 5px;
-        margin: 5px;
-        font-family: 'Open sans', sans-serif;
-    }
 
-    button:hover {
-        background-color: #BDBCBC;
-    }
 
     .data-page {
         text-align: center;
@@ -48,16 +38,17 @@ button:hover {
         width: 80vw;
         cursor: pointer;
     }
+
+    .filtrering {
+        width: 90vw;
+        margin-left: 10px;
+    }
+
 }
 
+
 @media screen and (min-width: 350px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 7px 6px;
-        margin: 5px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -80,17 +71,15 @@ button:hover {
     .data-page img {
         width: 80vw;
         cursor: pointer;
+    }
+
+    .filtrering {
+        width: 90vw;
     }
 }
 
 @media screen and (min-width: 375px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 7px 7px;
-        margin: 5px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -113,18 +102,16 @@ button:hover {
     .data-page img {
         width: 80vw;
         cursor: pointer;
+    }
+
+    .filtrering {
+        width: 90vw;
     }
 }
 
 
 @media screen and (min-width: 400px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 7px 10px;
-        margin: 5px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -148,17 +135,16 @@ button:hover {
         width: 80vw;
         cursor: pointer;
     }
+
+    .filtrering {
+        width: 82vw;
+        margin-left: 25px;
+    }
 }
 
 
 @media screen and (min-width: 450px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 7px 14px;
-        margin: 7px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -181,18 +167,16 @@ button:hover {
     .data-page img {
         width: 80vw;
         cursor: pointer;
+    }
+
+    .filtrering {
+        width: 94vw;
     }
 }
 
 
 @media screen and (min-width: 500px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 8px 19px;
-        margin: 7px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -216,16 +200,14 @@ button:hover {
         width: 80vw;
         cursor: pointer;
     }
+
+    .filtrering {
+        width: 95vw;
+    }
 }
 
 @media screen and (min-width: 550px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 7px 22px;
-        margin: 9px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -249,16 +231,14 @@ button:hover {
         width: 80vw;
         cursor: pointer;
     }
+
+    .filtrering {
+        width: 90vw;
+    }
 }
 
 @media screen and (min-width: 600px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 9px 22px;
-        margin: 14px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -282,16 +262,16 @@ button:hover {
         width: 50vw;
         cursor: pointer;
     }
+
+    .filtrering {
+        width: 90vw;
+    }
+
+
 }
 
 @media screen and (min-width: 650px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 9px 22px;
-        margin: 14px 19px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -315,16 +295,16 @@ button:hover {
         width: 50vw;
         cursor: pointer;
     }
+
+    .filtrering {
+        width: 90vw;
+    }
+
+
 }
 
 @media screen and (min-width: 700px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 9px 24px;
-        margin: 14px 23px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -347,18 +327,16 @@ button:hover {
     .data-page img {
         width: 50vw;
         cursor: pointer;
+    }
+
+    .filtrering {
+        width: 90vw;
     }
 }
 
 
 @media screen and (min-width: 750px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 9px 30px;
-        margin: 14px 21px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -382,16 +360,16 @@ button:hover {
         width: 50vw;
         cursor: pointer;
     }
+
+    .filtrering {
+        width: 95vw;
+    }
+
+
 }
 
 @media screen and (min-width: 800px) {
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 9px 24px;
-        margin: 14px 32px;
-        font-family: 'Open sans', sans-serif;
-    }
+
 
     .data-page {
         text-align: center;
@@ -463,21 +441,19 @@ button:hover {
         text-align: center;
         opacity: 1;
     }
+
+    .filtrering {
+        width: 93vw;
+    }
+
+
 }
 
 
 @media screen and (min-width: 850px) {
-    .filtrering {
-        text-align: center;
-    }
 
-    button {
-        background-color: #E8E7E9;
-        border: none;
-        padding: 9px 24px;
-        margin: 34px 8px;
-        font-family: 'Open sans', sans-serif;
-    }
+
+
 
     .data-page {
         text-align: center;
@@ -548,6 +524,10 @@ button:hover {
         transform: translate(-50%, -50%);
         text-align: center;
         opacity: 1;
+    }
+
+    .filtrering {
+        width: 92vw;
     }
 }
 
@@ -622,6 +602,10 @@ button:hover {
         text-align: center;
         opacity: 1;
     }
+
+    .filtrering {
+        width: 90vw;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -694,6 +678,10 @@ button:hover {
         transform: translate(-50%, -50%);
         text-align: center;
         opacity: 1;
+    }
+
+    .filtrering {
+        width: 95vw;
     }
 }
 
@@ -768,6 +756,10 @@ button:hover {
         text-align: center;
         opacity: 1;
     }
+
+    .filtrering {
+        width: 92vw;
+    }
 }
 
 @media screen and (min-width: 1100px) {
@@ -840,6 +832,10 @@ button:hover {
         transform: translate(-50%, -50%);
         text-align: center;
         opacity: 1;
+    }
+
+    .filtrering {
+        width: 94vw;
     }
 }
 
@@ -914,6 +910,10 @@ button:hover {
         text-align: center;
         opacity: 1;
     }
+
+    .filtrering {
+        width: 93vw;
+    }
 }
 
 @media screen and (min-width: 1180px) {
@@ -987,6 +987,10 @@ button:hover {
         text-align: center;
         opacity: 1;
     }
+
+    .filtrering {
+        width: 94vw;
+    }
 }
 
 @media screen and (min-width: 1220px) {
@@ -1059,6 +1063,10 @@ button:hover {
         transform: translate(-50%, -50%);
         text-align: center;
         opacity: 1;
+    }
+
+    .filtrering {
+        width: 94vw;
     }
 
 
@@ -1135,6 +1143,10 @@ button:hover {
         text-align: center;
         opacity: 1;
     }
+
+    .filtrering {
+        width: 94vw;
+    }
 }
 
 @media screen and (min-width: 1390px) {
@@ -1207,6 +1219,10 @@ button:hover {
         transform: translate(-50%, -50%);
         text-align: center;
         opacity: 1;
+    }
+
+    .filtrering {
+        width: 94vw;
     }
 }
 
@@ -1281,8 +1297,52 @@ button:hover {
         text-align: center;
         opacity: 1;
     }
+
+    .filtrering {
+        width: 93vw;
+    }
 }
 
 .data-kategori {
     display: none;
+}
+
+
+.menu-item {
+    flex: 1;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    white-space: nowrap;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+    user-select: none;
+    cursor: pointer;
+    color: currentColor;
+    display: inline-block;
+
+
+}
+
+.menu-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #000;
+    transition: width 0.3s;
+
+}
+
+.menu-item:hover::after {
+    width: 100%;
+}
+
+.filtrering {
+    text-align: center;
+    margin-top: 40px;
+
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
 
 <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -16,6 +16,7 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Christian Juhl">
     <style>
 
 
@@ -31,8 +32,8 @@
         <button class="menu-item" data-kategori="Alle">All funitures</button>
         <button class="menu-item" data-kategori="Chair">Chairs</button>
         <button class="menu-item" data-kategori="Table">Tables</button>
-        <button class="menu-item" data-kategori="Bench">Bench</button>
-        <button class="menu-item" data-kategori="Stool">Stool</button>
+        <button class="menu-item" data-kategori="Bench">Benches</button>
+        <button class="menu-item" data-kategori="Stool">Stools</button>
 
     </div>
 

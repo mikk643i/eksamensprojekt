@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
 
 <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -16,12 +16,13 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Christian Juhl">
 </head>
 
 <body>
     <?php include "header.html"; ?>
 
-    <iframe src="https://www.youtube.com/embed/uY0q1wA6070" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
     <div class="om">
@@ -29,10 +30,16 @@
             <img src="assets/christian.png" alt="potræt">
         </div>
         <div class="om-tekst">
-            <p>Christian Juhl is a danish designer based in Copenhagen. He has a background as a cabinet maker, where had an apprenticeship at Rudolph Rasmussen. Upon this, he has a master degree in Furniture Design from The Royal Danish Academy of Fine Arts – School of Design (KADK) and graduated in 2017. He has worked for well-known Danish furniture brands such as Fritz Hansen and HAY. Currently he works at HAY and runs his own studio, where he focuses on furniture and product design. He strives to create products with an innovative yet recognizable approach. “to me, a good design has to be easy to understand and bring a relation in order for people to use it in their everyday life. I’m interested in products for everyday use and strive to bring good and long lasting solutions with an innovative and straight forward design."</p>
+            <p>Christian Juhl is a danish designer based in Copenhagen. He has a background as a cabinet maker, where had an apprenticeship at Rudolph Rasmussen. Upon this, he has a master degree in Furniture Design from The Royal Danish Academy of Fine Arts – School of Design (KADK) and graduated in 2017. He has worked for well-known Danish furniture brands such as Fritz Hansen and HAY. Currently he works at HAY and runs his own studio, where he focuses on furniture and product design. He strives to create products with an innovative yet recognizable approach. </p>
         </div>
 
     </div>
+
+    <iframe title="christian" src="https://www.youtube.com/embed/uY0q1wA6070" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p class="citat">“To me, a good design has to be easy to understand and bring a relation in order for people to use it in their everyday life." <br>- Christian Juhl </p>
+
+
     <!-- Tidslinjens kode er lavet som en liste med de passende tags indeni. -->
     <section class="timeline">
         <ul>
@@ -96,7 +103,7 @@
         </ul>
     </section>
 
-
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="assets/angle-up.svg" alt="pil op"></button>
     <?php include "footer.html"; ?>
     <script>
         (function() {
@@ -131,6 +138,25 @@
             window.addEventListener("scroll", callbackFunc);
 
         })();
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
 
     </script>
 </body>

@@ -54,6 +54,22 @@ h4 {
 
     }
 
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .map {
+        filter: grayscale(70%);
+        width: 80vw;
+        height: 60vh;
+    }
+
 }
 
 
@@ -67,6 +83,22 @@ h4 {
         justify-content: center;
     }
 
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .map {
+        filter: grayscale(70%);
+        width: 80vw;
+        height: 60vh;
+    }
+
 }
 
 
@@ -78,6 +110,21 @@ h4 {
         justify-content: center;
     }
 
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .map {
+        filter: grayscale(70%);
+        width: 30vw;
+        height: 60vh;
+    }
 }
 
 
@@ -89,6 +136,16 @@ h4 {
         justify-content: center;
     }
 
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
 }
 
 @media screen and (min-width: 974px) {
@@ -98,6 +155,16 @@ h4 {
         width: 56vw;
         justify-content: center;
     }
+
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -106,6 +173,16 @@ h4 {
         margin: 65px auto 750px;
         width: 60vw;
         justify-content: center;
+    }
+
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
     }
 }
 
@@ -119,6 +196,16 @@ h4 {
         justify-content: center;
     }
 
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
 }
 
 
@@ -128,6 +215,16 @@ h4 {
         margin: 65px auto;
         width: 52vw;
         justify-content: center;
+    }
+
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
     }
 
 }
@@ -140,6 +237,16 @@ h4 {
         justify-content: center;
     }
 
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
 }
 
 @media screen and (min-width: 1180px) {
@@ -150,26 +257,62 @@ h4 {
         justify-content: center;
     }
 
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
     .pagecontainer {
-        display: block;
+
         margin: 65px auto;
         width: 46vw;
         justify-content: center;
     }
 
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+
+
 }
 
 @media screen and (min-width: 1530px) {
     .pagecontainer {
-        display: block;
+
         margin: 65px auto;
         width: 47vw;
         justify-content: center;
     }
 
+    #data-pagetitle {
+        display: block;
+        text-align: center;
+    }
+
+    #data-page {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+
+
 }
+
+
 
 /* Contact slut */
