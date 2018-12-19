@@ -42,7 +42,11 @@
         }
 
         p {
+<<<<<<< HEAD
             font-family: 'Montserrat', sans-serif;
+=======
+            font-family: sans-serif;
+>>>>>>> origin/master
             line-height: 23px;
         }
 
@@ -81,6 +85,13 @@
                 margin-left: 5vw;
             }
 
+<<<<<<< HEAD
+=======
+            p {
+                font-family: sans-serif;
+                line-height: 23px;
+            }
+>>>>>>> origin/master
 
         }
 
