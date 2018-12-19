@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <meta name="description" content="Christian Juhl">
+    <meta name="description" content="Christian Juhls produkter">
     <style>
         .data-page {
             margin-left: 10vw;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-             margin-top: 40px;
+            margin-top: 40px;
 
         }
 
@@ -41,7 +41,7 @@
             margin-left: 5vw;
         }
 
-         p {
+        p {
             font-family: 'Montserrat', sans-serif;
             line-height: 23px;
         }
@@ -91,7 +91,7 @@
             }
         }
 
-        @media screen and (min-width: 1400px) {
+        @media screen and (min-width: 1200px) {
             .data-page {
                 margin-left: 10vw;
                 display: grid;

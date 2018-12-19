@@ -15,7 +15,7 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="Christian Juhl">
+    <meta name="description" content="Følg med i Christian Juhls udvikling og nye produkter">
 </head>
 
 <body>
@@ -597,7 +597,7 @@ font-size: 30px;
             token = '9602470857.1677ed0.e3b6ff533da042a18f6d33a4a8daa074',
             container2 = document.getElementById('rudr_userinfo'),
             scrElement2 = document.createElement('script');;
-        // Profil information
+        // Profil information: alt information omkring brugeren dvs. billede, navn, followers osv. bliver hentet her fra
 
         window.mishaProcessResult2 = function(response) {
             container2.innerHTML = '<div><p><a href="https://www.instagram.com/test.kea.2018/?hl=da"><img src="' + response.data.profile_picture + '"></a></p></div>' +
@@ -607,7 +607,7 @@ font-size: 30px;
         scrElement2.setAttribute('src', 'https://api.instagram.com/v1/users/self?access_token=' + token + '&callback=mishaProcessResult2');
         document.body.appendChild(scrElement2);
 
-        //Billeder og billede tekst
+        //Billeder og billede tekst samt liks og kommentarer bliver hentett her
 
 
         window.mishaProcessResult = function(data) {

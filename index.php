@@ -16,11 +16,11 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="Christian Juhl">
+    <meta name="description" content="Velkommen til Christian Juhls portfoliosite">
 </head>
 
 <body>
-
+    <!--Henter Header med include tag, som henviser til header.html hvor header informationen ligger-->
     <?php include "header.html"; ?>
 
     <div class="forside-collage">
@@ -39,10 +39,6 @@
             </article>
 
         </template>
-
-
-
-
 
 
         <section class="forside-midt"></section>
@@ -83,12 +79,8 @@
     </div>
 
 
-
-
-
-
-
     <?php include "footer.html"; ?>
+
     <script>
         let minTemplate = document.querySelector("#wp_template");
         let templateModtager1 = document.querySelector(".forside");

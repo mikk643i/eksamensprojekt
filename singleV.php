@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <meta name="description" content="Christian Juhl">
+    <meta name="description" content="Christian Juhls produkter">
     <style>
         .data-page {
             margin-left: 10vw;
@@ -91,7 +91,7 @@
             }
         }
 
-        @media screen and (min-width: 1400px) {
+        @media screen and (min-width: 1200px) {
             .data-page {
                 margin-left: 10vw;
                 display: grid;
