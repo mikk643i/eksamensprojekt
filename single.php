@@ -14,6 +14,7 @@
             margin-left: 10vw;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
+            margin-top: 40px;
 
         }
 
@@ -41,12 +42,12 @@
         }
 
         p {
-            font-family: sans-serif;
-            line-height: 30px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 23px;
         }
 
         h1 {
-            font-family: sans-serif;
+            font-family: 'Open sans', sans-serif;
         }
 
         @media screen and (min-width: 750px) {
@@ -80,14 +81,7 @@
                 margin-left: 5vw;
             }
 
-            p {
-                font-family: sans-serif;
-                line-height: 30px;
-            }
 
-            h1 {
-                font-family: sans-serif;
-            }
         }
 
         @media screen and (min-width: 1400px) {
@@ -129,33 +123,33 @@
 <body>
 
 
-<?php include "header.html"; ?>
+    <?php include "header.html"; ?>
 
 
-<section class="forside"></section>
+    <section class="forside"></section>
 
 
 
-<article class="data-page">
+    <article class="data-page">
 
 
-    <div class="funitureBillede">
-        <img class="data_billeder" src="" alt="">
+        <div class="funitureBillede">
+            <img class="data_billeder" src="" alt="">
+        </div>
+
+        <div class="funitureInfo">
+            <h1 class="data-title"></h1>
+            <p class="data-beskrivelse"></p>
+        </div>
+
+    </article>
+
+    <div class="billeder">
+        <img class="data_billeder1" src="" alt="">
+        <img class="data_billeder2" src="" alt="">
+        <img class="data_billeder3" src="" alt="">
+        <img class="data_billeder4" src="" alt="">
     </div>
-
-    <div class="funitureInfo">
-        <h1 class="data-title"></h1>
-        <p class="data-beskrivelse"></p>
-    </div>
-
-</article>
-
-<div class="billeder">
-    <img class="data_billeder1" src="" alt="">
-    <img class="data_billeder2" src="" alt="">
-    <img class="data_billeder3" src="" alt="">
-    <img class="data_billeder4" src="" alt="">
-</div>
 
 
 

@@ -10,10 +10,11 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <meta name="description" content="Christian Juhl">
     <style>
-      .data-page {
+        .data-page {
             margin-left: 10vw;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
+            margin-top: 40px;
 
         }
 
@@ -39,14 +40,13 @@
         .billeder {
             margin-left: 5vw;
         }
-
-        p {
-            font-family: sans-serif;
-            line-height: 30px;
+  p {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 23px;
         }
 
         h1 {
-            font-family: sans-serif;
+            font-family: 'Open sans', sans-serif;
         }
 
         @media screen and (min-width: 750px) {
@@ -156,7 +156,7 @@
 
 
 
-    <?php include "footer.html"; ?>
+<?php include "footer.html"; ?>
 
 
 
